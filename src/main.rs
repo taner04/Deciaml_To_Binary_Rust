@@ -40,7 +40,7 @@ fn calc_binary(mut dec: i32) -> [i32; 9] {
 fn new_run(text: &str) -> bool {
     print!("\n\t{}", text);
     io::stdout().flush().unwrap();
-    if user_input().map(|x| x.to_lowercase()) == Some("y".to_owned()) {
+    if user_input().map(|inp| inp.to_lowercase()) == Some("y".to_owned()) {
         true
     } else {
         false

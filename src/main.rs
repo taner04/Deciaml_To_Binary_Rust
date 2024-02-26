@@ -23,7 +23,7 @@ fn main() {
 }
 
 fn header() {
-    println!("\n\tBinary Calculatr");
+    println!("\n\tBinary Calculator");
     println!("\t================");
 }
 
